@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>芹壁青年民宿 - 首頁</title>
+  </head>
+  <body>
+    <!-- 包含 header -->
+    {{ template "header.html" . }}
+
+    <!-- 主內容 -->
+    <main class="container mt-5">
+        <h5 class="card-title">歡迎來到芹壁青年民宿</h5>
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="/static/images/home.jpg" class="card-img" alt="芹壁青年民宿" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">
+                芹壁青年民宿原是外公的家，由於對外公的想念和在芹壁成長童時的記憶，促成了老房子的改造，以青瓦、石牆、杉木傳統工法打造會呼吸的房子。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
